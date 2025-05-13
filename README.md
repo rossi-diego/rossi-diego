@@ -6,7 +6,7 @@ Currently, I’m developing Python-based tools to support decision-making in com
 
 ## Core Skills
 
-- Financial Risk: Value at Risk (VaR), MTM, derivatives (vanilla and exotic), hedging strategies  
+- Financial Risk: Value at Risk (VaR), exposure management, derivatives (vanilla and exotic), hedging and trading strategies, backtests 
 - Programming & Modeling: Python (Pandas, Scikit-learn, Statsmodels, SARIMAX)
 - Data Engineering: API integration (USDA, Yahoo Finance, Eikon), data pipelines, automation  
 - Commodities: Fundamental analysis (soybeans, soybean oil/meal, corn, wheat, heating oil, palm oil), basis and FX exposure  
