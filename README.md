@@ -1,6 +1,6 @@
 # Diego Rossi
 
-I'm a finance professional with a strong background in market risk management, derivatives, and quantitative analysis. My work combines applied finance with data science and programming, focusing on **commodity markets**, **financial modeling**, **quantitative analysis** and **hedging strategies**.
+I'm a finance data scientist professional with a strong background in market risk management, derivatives, and quantitative analysis. My work combines applied finance with data science and programming, focusing on **commodity markets**, **financial modeling**, **quantitative analysis** and **hedging strategies**.
 
 Currently, I’m developing Python-based tools to support decision-making in commodity trading and risk analysis, including backtesting engines, forecasting models, and structured pipelines using agricultural fundamentals.
 
@@ -14,7 +14,7 @@ Currently, I’m developing Python-based tools to support decision-making in com
 
 ## Featured Projects
 
-- [**Soybean Oil Spread Predictor**](https://github.com/rossi-diego/soybean-oil-spread-predictor)  
+- [**Soybean Oil Predictor**](https://github.com/rossi-diego/soybean-oil-predictor)  
   Forecasting the BOC1 contract price based on spreads with soybean meal and palm oil.
 
 - [**Commodity Spread Backtester**](https://github.com/rossi-diego/commodity-backtester)  
