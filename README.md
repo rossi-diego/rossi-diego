@@ -20,7 +20,7 @@ Currently, I’m developing Python-based tools to support decision-making in com
 - [**Commodity Spread Backtester**](https://github.com/rossi-diego/commodity-backtester)  
   Interactive backtesting framework for spread trading strategies using historical futures prices.
 
-- [**WASDE Data Pipeline**](https://github.com/rossi-diego/usda-wasde-pipeline)  
+- [**WASDE Monthly Report**](https://github.com/rossi-diego/wasde-monthly-report)  
   Automated ingestion and structuring of USDA WASDE reports for commodity market analysis.
 
 ## Get in Touch
