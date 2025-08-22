@@ -23,6 +23,9 @@ Currently, I’m developing Python-based tools to support decision-making in com
 - [**WASDE Monthly Report**](https://github.com/rossi-diego/wasde-monthly-report)  
   Automated ingestion and structuring of USDA WASDE reports for commodity market analysis.
 
+- [**Sarimax-Brazilian-Soybean-Forecasting**](https://github.com/rossi-diego/sarimax-brazilian-soybean-forecasting)  
+  Forecasting pipeline for average brazilian Paranaguá soybean prices using SARIMAX model.
+
 ## Get in Touch
 
 - LinkedIn: [linkedin.com/in/rossi-diego](https://www.linkedin.com/in/rossi-diego)  
