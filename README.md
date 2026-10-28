@@ -1,6 +1,6 @@
 # Diego Rossi
 
-**Market Risk Manager · Commodities, Biofuels & FX · Python risk & data engineering · Open to Amsterdam / Lisbon**
+**Market Risk Manager · Commodities, Biofuels & FX · Python risk & data engineering**
 
 I run market risk at **Inpasa**, Latin America's largest corn-ethanol producer, covering physical grain, exchange-traded futures and FX. I build the Python tooling behind that work: position consolidation, risk metrics and quantitative models.
 
