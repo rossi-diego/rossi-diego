@@ -1,32 +1,37 @@
 # Diego Rossi
 
-I'm a finance data scientist professional with a strong background in market risk management, derivatives, and quantitative analysis. My work combines applied finance with data science and programming, focusing on **commodity markets**, **financial modeling**, **quantitative analysis** and **hedging strategies**.
+**Market Risk Manager · Commodities, Biofuels & FX · Python risk & data engineering · Open to Amsterdam / Lisbon**
 
-Currently, I’m developing Python-based tools to support decision-making in commodity trading and risk analysis, including backtesting engines, forecasting models, and structured pipelines using agricultural fundamentals.
+I run market risk at **Inpasa**, Latin America's largest corn-ethanol producer, covering physical grain, exchange-traded futures and FX. I build the Python tooling behind that work: position consolidation, risk metrics and quantitative models.
 
-## Core Skills
+The repositories here rebuild that workflow on public or synthetic data. They contain no employer data.
 
-- Financial Risk: Value at Risk (VaR), exposure management, derivatives (vanilla and exotic), hedging and trading strategies, backtests 
-- Programming & Modeling: Python (Pandas, Scikit-learn, Statsmodels, SARIMAX)
-- Data Engineering: API integration (USDA, Yahoo Finance, Eikon), data pipelines, automation  
-- Commodities: Fundamental analysis (soybeans, soybean oil/meal, corn, wheat, heating oil, palm oil), basis and FX exposure  
-- Tools: Streamlit, SQL, Power BI, Git, Excel
+## What I work on
 
-## Featured Projects
+- **Markets:** corn, ethanol and DDGS; the soy complex; BRL FX and rates
+- **Instruments:** physical forwards, CBOT and B3 futures and options, NDFs
+- **Risk:** VaR and Expected Shortfall, stress testing, hedge effectiveness, basis risk
+- **Data:** pipelines for market fundamentals and prices, from raw source to served API
 
-- [**Soybean Oil Predictor**](https://github.com/rossi-diego/soybean-oil-predictor)  
-  Forecasting the BOC1 contract price based on spreads with soybean meal and palm oil.
+## Projects
 
-- [**Commodity Spread Backtester**](https://github.com/rossi-diego/commodity-backtester)  
-  Interactive backtesting framework for spread trading strategies using historical futures prices.
+| Project | What it does | Stack |
+|---|---|---|
+| [**USDA fundamentals pipeline**](https://github.com/rossi-diego/wasde-monthly-report) | Medallion pipeline (bronze → silver → gold) for USDA PSD, WASDE, NOPA crush and export sales, with vintage-aware WASDE revision tracking | Python · Airflow · DuckDB · FastAPI · GitHub Actions |
 
-- [**WASDE Monthly Report**](https://github.com/rossi-diego/wasde-monthly-report)  
-  Automated ingestion and structuring of USDA WASDE reports for commodity market analysis.
+### In progress
 
-- [**Sarimax-Brazilian-Soybean-Forecasting**](https://github.com/rossi-diego/sarimax-brazilian-soybean-forecasting)  
-  Forecasting pipeline for average brazilian Paranaguá soybean prices using SARIMAX model.
+- **Market risk platform**: position-to-risk engine for an agri-industrial book (physical, CBOT, basis, BRL FX), with VaR, ES and full-revaluation stress driven by booked positions
+- **Commodity VaR backtesting**: model validation for grain, ethanol and BRL portfolios (historical, filtered HS, EWMA, GARCH-t; Kupiec, Christoffersen, ES backtest)
 
-## Get in Touch
+## Stack
 
-- LinkedIn: [linkedin.com/in/rossi-diego](https://www.linkedin.com/in/rossi-diego)  
-- GitHub: [github.com/rossi-diego](https://github.com/rossi-diego)  
+Python · pandas · Airflow · FastAPI · DuckDB · PostgreSQL · Docker · GitHub Actions · Next.js / TypeScript
+
+## Languages
+
+Portuguese (native) · English (professional)
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/rossi-diego)
