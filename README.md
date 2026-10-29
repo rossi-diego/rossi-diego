@@ -18,6 +18,7 @@ The repositories here rebuild that workflow on public or synthetic data. They co
 | Project | What it does | Stack |
 |---|---|---|
 | [**USDA fundamentals pipeline**](https://github.com/rossi-diego/wasde-monthly-report) | Medallion pipeline (bronze → silver → gold) for USDA PSD, WASDE, NOPA crush and export sales, with vintage-aware WASDE revision tracking | Python · Airflow · DuckDB · FastAPI · GitHub Actions |
+| [**Commodity backtester**](https://github.com/rossi-diego/commodity-backtester) | Backtester for commodity futures strategies with T+1 execution, CME contract specs, transaction costs and risk metrics on a daily equity curve | Python · pandas · Streamlit · pytest |
 
 ### In progress
 
