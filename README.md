@@ -17,6 +17,7 @@ The repositories here rebuild that workflow on public or synthetic data. They co
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**Soybean crush margin**](https://github.com/rossi-diego/soybean-crush-margin) · [live app](https://soybean-crush-margin.streamlit.app/) | Daily soybean crush margin, oil share of product value and soybean oil feedstock cost against heating oil, with and without the D4 RIN, from CBOT and NYMEX futures; roll and delivery sessions are left out of every statistic | Python · pandas · Plotly · Streamlit · pytest · GitHub Actions |
 | [**USDA fundamentals pipeline**](https://github.com/rossi-diego/wasde-monthly-report) | Medallion pipeline (bronze → silver → gold) for USDA PSD, WASDE, NOPA crush and export sales, with vintage-aware WASDE revision tracking | Python · Airflow · DuckDB · FastAPI · GitHub Actions |
 
 ### In progress
