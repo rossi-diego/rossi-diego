@@ -4,7 +4,7 @@
 
 I run market risk at **Inpasa**, a leading Brazilian corn ethanol producer, covering physical grain, exchange-traded futures and FX. I build the Python tooling behind that work: position consolidation, risk metrics and quantitative models.
 
-The repositories here rebuild that workflow on public data. They contain no employer data.
+All projects use public market data.
 
 ## What I work on
 
@@ -18,9 +18,9 @@ The repositories here rebuild that workflow on public data. They contain no empl
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Soybean crush margin**](https://github.com/rossi-diego/soybean-crush-margin) · [live app](https://soybean-crush-margin.streamlit.app/) | Daily soybean crush margin, oil share of product value and soybean oil feedstock cost against heating oil, with and without the D4 RIN, from CBOT and NYMEX futures. 1-day VaR 95% and ES 97.5% by filtered historical simulation (EWMA volatility), with Euler ES allocation by leg. Over 5 years the filtered VaR passes the Kupiec and Christoffersen tests (4.8% exceptions); plain historical simulation fails both. ES is backtested with Acerbi–Székely. Roll and delivery sessions are left out of every statistic | Python · pandas · Plotly · Streamlit · pytest · mypy · GitHub Actions |
-| [**Soy Outlook**](https://github.com/rossi-diego/soy-outlook) · [live site](https://soy-outlook.vercel.app) | Brazilian (Paranaguá FOB) soybean price-risk ranges 1, 3 and 6 months after each USDA WASDE, from a point-in-time backtest since 2010 with model selection fixed in advance. No model beat "no change", so the site shows ranges labelled by how often they held, plus a hedging calculator, in English and Portuguese | Python · pandas · statsmodels · scikit-learn · Next.js / TypeScript · Playwright · GitHub Actions · Vercel |
-| [**USDA Reports Dashboard**](https://github.com/rossi-diego/usda-reports-dashboard) · [live site](https://usda-reports.vercel.app) | Five USDA reports (every WASDE since July 2010, Export Sales, NASS crush, Crop Progress and Grain Stocks) harmonised into one point-in-time data product. It is rebuilt automatically on release day, checked by dbt data tests and published as versioned downloads and a dashboard in English and Portuguese | Python · DuckDB · dbt · Docker · GitHub Actions · Next.js / TypeScript |
+| [**Soybean crush margin**](https://github.com/rossi-diego/soybean-crush-margin) · [live app](https://soybean-crush-margin.streamlit.app/) | Tracks the daily soybean crush margin and biodiesel feedstock costs from CBOT and NYMEX futures, with Value at Risk and Expected Shortfall backtested over 5 years | Python · pandas · Plotly · Streamlit · pytest · mypy · GitHub Actions |
+| [**Soy Outlook**](https://github.com/rossi-diego/soy-outlook) · [live site](https://soy-outlook.vercel.app) | Price-risk ranges for Brazilian soybeans 1, 3 and 6 months after each USDA WASDE report, tested against what actually happened since 2010, plus a hedging calculator | Python · pandas · statsmodels · scikit-learn · Next.js / TypeScript · Playwright · GitHub Actions · Vercel |
+| [**USDA Reports Dashboard**](https://github.com/rossi-diego/usda-reports-dashboard) · [live site](https://usda-reports.vercel.app) | Five USDA crop reports in one clean dataset, most going back to 2010, updated automatically on release day, with a dashboard and downloads | Python · DuckDB · dbt · Docker · GitHub Actions · Next.js / TypeScript |
 
 ## Stack
 
